@@ -1,1 +1,17 @@
-pendente
+O capítulo 2 instrui de forma esclarecedora os passos adequados para lidar com dados provenientes de fontes desconhecidas. Ele destaca a importância da análise exploratória, bem como da criação do perfil dos dados, utilizando diagramas de distribuição e histogramas.
+
+O capítulo também aborda maneiras de eliminar redundâncias nos dados, gerando uma saída com maior qualidade da informação.
+
+Além disso, mostra como lidar com dados ausentes (NULL) na etapa de preparação dos dados. Nessa fase, a função CASE é apresentada como apoio no processo de resumo e limpeza dos dados.
+
+Por fim, é feita uma breve introdução à modelagem de dados.
+
+Sequência de passos apresentada no capítulo:
+
+1. Criar o perfil dos dados
+
+2. Criar o perfil de qualidade dos dados
+
+3. Preparação dos dados
+
+4. Modelagem dos dados
