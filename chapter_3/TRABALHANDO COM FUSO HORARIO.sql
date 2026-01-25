@@ -4,7 +4,11 @@ Usando a função AT TIME ZONE [FUSO], podemos fazer a conversão de fuso horário.
 */
 
 SELECT
-    SYSDATETIMEOFFSET() AS DATETIME_COM_FUSO_SERVIDOR;
+    SYSUTCDATETIME() AS DATETIME_UTC;	-- Retorna a data e hora universal UTC (Coordinated Universal Time)
+GO
+
+SELECT
+    SYSDATETIMEOFFSET() AS DATETIME_COM_FUSO_SERVIDOR;		-- Retorna a data e hora atual do banco
 GO
 
 SELECT
